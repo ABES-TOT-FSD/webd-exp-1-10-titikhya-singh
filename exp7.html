@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> <head>    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Website Navigation Output</title>
+    <style> body {    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; }
+.navigation-container {    border: 1px solid black;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;}
+.nav-header {     background-color: #d3d3d3; 
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 10px 0px 10px;}
+.website-text {    font-weight: bold;
+    font-style: italic;
+    color: red; }
+.navigation-menu {padding: 10px;}
+.nav-row {    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+   display: flex;}
+.nav-row li {    margin-right: 5px; }
+.nav-button {    display: block; 
+    padding: 8px 15px;
+    text-decoration: none;  
+    color: purple; 
+    font-size: 0.95em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;}
+.blue-btn {  background-color: #b0e0e6; }
+.blue-btn:hover {    background-color: #87cefa;}
+.green-btn { background-color: #90ee90;}
+.green-btn:hover {   background-color: #3cb371; }
+</style>
+</head> <body>
+    <div class="navigation-container">         <header class="nav-header">
+            My <span class="website-text">Website</span> Navigation
+        </header>
+        <nav class="navigation-menu">
+            <ul class="nav-row public-links">
+                <li><a href="#" class="nav-button blue-btn">Home</a></li>
+                <li><a href="#" class="nav-button blue-btn">About</a></li>
+                <li><a href="#" class="nav-button blue-btn">Services</a></li>
+                <li><a href="#" class="nav-button blue-btn">Contact</a></li>
+            </ul>            <ul class="nav-row user-links">
+                <li><a href="#" class="nav-button green-btn">Dashboard</a></li>
+                <li><a href="#" class="nav-button green-btn">Profile</a></li>
+                <li><a href="#" class="nav-button green-btn">Messages</a></li>
+                <li><a href="#" class="nav-button green-btn">Logout</a></li>
+            </ul>        
+        </nav>    
+        </div> 
+    </body>
+            
+</html>

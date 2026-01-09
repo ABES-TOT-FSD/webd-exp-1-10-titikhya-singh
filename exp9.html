@@ -1,0 +1,67 @@
+<!DOCTYPE html> <html lang="en">
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>Responsive product grid</title>
+    <style> body{    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    height: 100vh;}
+.header{    text-align: center;
+    margin-bottom: 20px;}
+.page-container{  max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: black 1px solid;}
+.product-grid{    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;}
+.product-card{    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0.1, 0.1 ,0.1, 0.1) 0px 2px 5px;
+    padding: 5px;
+    margin : 5px;
+    text-align: center;}
+.details{    font-size: 14px;
+    color: gray;
+    margin: 0 0 10px; }
+.price{    font-weight: bold;
+    color: gray;}
+</style>
+</head> <body>      <div class="page-container">
+        <div class="header">
+            <h2>Responsive Product Grid</h2>      </div>
+        <div class="product-grid">
+        <div class="product-card">
+            <img src="abc" alt="Product 1" logo="">
+            <h3><b>Product 1</b></h3>
+            <div class="details">
+                High quality item with great features.
+               <div class="price"> &#8377; 499</div>
+          </div>       </div>
+        <div class="product-card">
+            <img src="abc" alt="Product 2" logo="">
+            <h3><b>Product 2</b></h3>
+            <div class="details">
+                Durable and stylish for everyday use.
+                <div class="price"> &#8377; 799</div>
+            </div></div>
+        <div class="product-card">
+            <img src="abc" alt="Product 3" logo="">
+            <h3><b>Product 3</b></h3>
+            <div class="details">
+                Lightweight and Comfortable.
+                <div class="price"> &#8377; 1,299</div>
+            </div> </div>
+        <div class="product-card">
+            <img src="abc" alt="Product 4" logo="">
+            <h3><b>Product 4</b></h3>
+            <div class="details">
+                Trendy design with premium quality.
+                <div class="price"> &#8377; 999</div>
+            </div></div> </div> </div> </div>
+</body>
+</html>
